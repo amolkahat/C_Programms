@@ -1,16 +1,18 @@
 #include<stdio.h>
-
-void main(){
-
-    int a = 10, b = 20, c = 30;
-
+void main()
+{
+ int a, b, c;
+    printf("Enter 1st Number\n");
+    scanf("%d",&a);
+    printf("Enter 2nd Number\n");
+    scanf("%d"&b);
     if (a > b){
-        printf("A is grater");
+        printf("A is greater");
     }
-    //else if(b > a){
-    //    printf(" B is grater");
-    //}
+    else if(b > a){
+        {printf(" B is grater");
+        }
     else{
-        printf("ERROR: Unable to compare.");
+        printf("ERROR: Unable to compare.\n");
     }
 }
